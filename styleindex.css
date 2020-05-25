@@ -1,0 +1,244 @@
+* {
+  padding: 0;
+  Margin:0;
+}
+
+Body {
+  background-image: url(./index-picture/image-2.jpg);
+  height: 100%;
+  Width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+h1 {
+font-family: initial;
+font-size: 6em;
+color:cornsilk;
+Padding-top: 0.5px;
+overflow: auto;
+}
+
+.name {
+  text-decoration: underline;
+  transition-duration: 2s;
+  
+}
+
+.sticker {
+  width:200px;
+  Height: auto;
+  display: none;
+  padding:0;
+  margin:0;
+ float:right;
+ 
+
+}
+
+.name:hover + img.sticker {
+  display: block;
+ 
+}
+
+.name:hover{
+  border: 8px solid lightblue;
+  text-decoration: none;
+  color: black;
+  background-color: cornsilk;
+  font-size: 107%
+
+}
+
+
+#nav-menu {
+   display: flex;
+    justify-content:space;
+    background-color: cornsilk;
+    overflow: hidden;
+    background-attachment:fixed;
+
+}
+
+#nav-menu a {
+  float: left ;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+
+}
+
+#nav-menu a:hover {
+  background-color:lightblue;
+  color: black;
+  
+}
+ 
+#nav-menu a.home{
+  background-color:lightblue;
+  color: black;
+
+}
+
+
+h2 {
+  font-family: initial;
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 1.5px 2px 2px black;
+}
+
+p {
+  font-family: initial;
+  font-size: 30px;
+  font-weight: bold;
+  float: center;
+}
+
+p1 {
+  font-family: initial;
+  font-size: 20px;
+  font-weight: bold;
+  float: right;
+  padding-right:5%;
+
+}
+
+
+
+
+#quote{
+   background-image: url("./index-picture/quote-pic.jpg");
+   height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity:0.95;
+  padding:0.5;
+}
+
+.quote2 {
+ margin-top: 2%;
+  background-color: #ffffff;
+  background-size: 50%;
+  border: 1px solid black;
+  opacity: 0.8;
+  width: 70%;
+  overflow:auto;
+  position: absolute;
+  left: 40px;
+  top:50px;
+  padding: 1.5%;
+
+  }
+
+.quote2 a{
+  text-align: center
+}
+
+
+#ending {
+  Background-image: url(./index-picture/call.jpeg);
+  background-size: cover;
+  height:700px ;
+  Background-attachment: fixed;
+}
+
+.call {
+  border: black;
+  color:red;
+  padding: 15px 32px;
+  text-align: center;
+  display: block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-decoration:none;
+
+}
+
+a.call{
+  border-style: solid;
+  border-color: red;
+  left: 40%;
+  top: 50%;
+  position: relative;
+  width: 8em;
+}
+
+.call:hover{
+  color:black ;
+  transition: 2s ease-out;
+}
+
+
+@media only screen and (max-width:500px){
+
+  h1{
+    font-size: 3em;
+    padding: 5%
+  }
+  #nav-menu{
+    Flex-direction: column;
+  
+  }
+ 
+  #nav-menu a{
+    padding: 10px 12px;
+    font-size: 20px;
+    margin-left: 5%
+  }
+
+
+  h2{
+    font-size: 30px;
+    padding-left: 5%
+  }
+
+  p{
+    font-size: 20px;
+    padding-left: 5%
+  }
+
+  p2{
+    font-size:10px;
+    padding-left:5%
+  }
+
+  #quote{
+    Width: auto;
+    height: 300px
+  }
+
+  #ending{
+    Width: auto;
+    height: 200px;
+    background-attachment: scroll
+  }
+
+.call{
+  padding:0%;
+  margin: 0%;
+  font-size: 20px;
+}
+
+a.call{
+  right: 70%;
+ left:30%;
+ top: 50%;
+ bottom:50%;
+
+}
+
+
+}
+
+
+
+
+ 

@@ -1,0 +1,349 @@
+* {
+  padding: 0;
+  Margin:0;
+}
+
+Body {
+  background-image: url(./index-picture/image-2.jpg);
+  height: 100%;
+  Width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+h1 {
+font-family: initial;
+font-size: 6em;
+color:cornsilk;
+Padding-top: 0.5px;
+}
+
+
+
+#nav-menu {
+   display: flex;
+    justify-content:space;
+    background-color: cornsilk;
+    overflow: hidden;
+    background-attachment:fixed;
+}
+
+#nav-menu a {
+  float: left ;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+
+}
+
+#nav-menu a:hover {
+  background-color:lightblue;
+  color: black;
+  
+}
+ 
+#nav-menu a.experiences{
+  background-color:lightblue;
+  color: black;
+
+}
+
+#workbox{
+  background-color: #BAB86C;
+  Width: 90%;
+  Margin-left: 5%;
+  padding-top: 1%;
+}
+
+#armybox{
+  background-color: #BAB86C;
+  Width: 90%;
+  Margin-left: 5%;
+  padding-bottom: 2%;
+  padding-top: 1%
+}
+
+#skillsbox{
+  background-color: #BAB86C;
+  Width: 90%;
+  Margin-left: 5%;
+  padding-bottom: 2%;
+  padding-top: 1%;
+}
+
+#educationbox{
+  background-color: #BAB86C;
+  Width: 90%;
+  Margin-left: 5%;
+  padding-top: 1%;
+}
+
+#more {
+  display: none;
+}
+
+#myBtn{
+  background-color: #BAB86C;
+  Position: center;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+
+.btn-container{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+
+#myBtn:hover{
+  background-color: cornsilk;
+
+}
+
+
+
+#more2 {
+  display: none;
+}
+
+#myBtn2{
+  background-color: #BAB86C;
+  Position: center;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+
+.btn-container{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+
+#myBtn2:hover{
+  background-color: cornsilk;
+
+}
+
+
+.subsection{
+  font-size: 1.4em;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left:1%
+}
+
+.subsubsection{
+   font-size: 1.6em;
+   color: #b6571d;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left:1%;
+  font-style: italic;
+
+}
+
+.title{
+  font-size:2.4em;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left:1%;
+  color:#2c2416;
+  Text-decoration: underline;
+}
+
+
+.pic{
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.bulletpoint{
+  margin-left: 4%;
+  padding-left:2%;
+  Margin-right: 2%;
+  font-size: 1.2em;
+  line-height: 1.5;
+
+}
+
+.backtothetopdiv{
+    background-color: transparent ;
+    width: 150px;
+    Height: 25px;
+     position: fixed;
+        bottom: 10px;
+        right: 30%;
+        left: 75%;
+        border-radius: 4px;
+    Padding: 12px 25px;
+    border: 2px solid black
+}
+
+.backtothetopdiv:hover{
+  background-color:cornsilk;
+
+}
+
+.backtothetopdiv a{
+  color: black;
+  text-align: 50% 50%;
+  text-decoration: none;
+  font-size: 18px;
+  float: inherit; 
+  padding: 13px 14px;
+  
+}
+
+
+#ending {
+  Background-image: url(./index-picture/call.jpeg);
+  background-size: cover;
+  height:700px ;
+  Background-attachment: fixed;
+}
+
+.call {
+  border: black;
+  color:red;
+  padding: 15px 32px;
+  text-align: center;
+  display: block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-decoration:none;
+
+}
+
+a.call{
+  border-style: solid;
+  border-color: red;
+  left: 40%;
+  top: 50%;
+  position: relative;
+  width: 8em;
+}
+
+.call:hover{
+  color:black ;
+  transition: 2s ease-out;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:800px){
+
+  h1{
+    font-size: 3em;
+    padding: 5%
+  }
+  #nav-menu{
+    Flex-direction: column;
+  
+  }
+ 
+  #nav-menu a{
+    padding: 10px 12px;
+    font-size: 20px;
+    margin-left: 5%
+  }
+
+#educationbox{
+  width:100%;
+  margin-left:0%;
+  
+}
+
+#armybox{
+  width:100%;
+  margin-left:0%;
+
+}
+
+#workbox{
+  width:100%;
+  margin-left:0%;
+ 
+}
+
+#skillsbox{
+  width:100%;
+  margin-left:0%;
+}
+
+.title{
+  padding-left: 2%
+}
+
+.subsection{
+  padding-left: 2%;
+  padding-right:1%;
+}
+
+.subsubsection{
+  padding-left: 2%;
+  padding-right:1%
+}
+
+.bulletpoint{
+  padding-left: 5%;
+  padding-right: 3%
+}
+
+.pic{
+  Width: 300px;
+  height: auto;
+
+}
+
+.backtothetopdiv{
+  left:20%;
+  right:50%;
+}
+
+
+
+  #ending{
+    Width: auto;
+    height: 200px;
+    background-attachment: scroll
+  }
+
+.call{
+  padding:0%;
+  margin: 0%;
+  font-size: 20px;
+}
+
+a.call{
+  right: 70%;
+ left:30%;
+ top: 50%;
+ bottom:50%;
+
+}
+}

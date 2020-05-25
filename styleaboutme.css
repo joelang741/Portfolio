@@ -1,0 +1,260 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+Body {
+  background-image: url(./index-picture/image-2.jpg);
+  height: 100%;
+  Width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+font-family: initial;
+font-size: 6em;
+color:cornsilk;
+Padding-top: 0.5px;
+}
+
+#nav-menu {
+   display: flex;
+    justify-content:space;
+    background-color: cornsilk;
+    overflow: hidden;
+    background-attachment:fixed;
+}
+
+#nav-menu a {
+  float: left ;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+
+}
+
+#nav-menu a:hover {
+  background-color:lightblue;
+  color: black;
+  
+}
+ 
+#nav-menu a.aboutme{
+  background-color:lightblue;
+  color: black;
+
+}
+
+
+ }
+
+
+
+
+.bg-image {
+  height: 50%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.img1 { background-image: url("./index-picture/travelpic1.jpg");
+   height: 500px;
+ }
+.img2 { background-image: url("./index-picture/travelpic2.jpg");
+  height: 600px; }
+.img3 { background-image: url("./index-picture/travelpic3.jpg"); 
+  height: 600px;}
+.img4 { background-image: url("./index-picture/travelpic4.jpg"); 
+  height: 600px;}
+.img5 { background-image: url("./index-picture/travelpic5.jpg"); 
+  height: 600px;}
+.img6 { background-image: url("./index-picture/travelpic6.jpg"); 
+  height: 600px;}
+.img7 { background-image: url("./index-picture/travelpic7.jpg"); 
+  height: 600px;
+  background-repeat: no-repeat;}
+.img8 { background-image: url("./index-picture/travelpic8.jpg"); 
+  height: 600px;}
+.img9 { background-image: url("./index-picture/mjcfootballsolo.jpg"); 
+  height: 600px;}
+.img10 { background-image: url("./index-picture/mjcfootball.jpg"); 
+  height: 600px;}
+
+
+.bg-text {
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  font-size: 70px;
+  border: 10px solid #f1f1f1;
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 500px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+#ending {
+  Background-image: url(./index-picture/call.jpeg);
+  background-size: cover;
+  height:700px ;
+  Background-attachment: fixed;
+}
+
+.call {
+  border: black;
+  color:red;
+  padding: 15px 32px;
+  text-align: center;
+  display: block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-decoration:none;
+
+}
+
+a.call{
+  border-style: solid;
+  border-color: red;
+  left: 40%;
+  top: 30%;
+  position: relative;
+  width: 8em;
+}
+
+.call:hover{
+  color:black ;
+  transition: 2s ease-out;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:500px){
+
+  h1{
+    font-size: 3em;
+    padding: 5%
+  }
+  #nav-menu{
+    Flex-direction: column;
+  
+  }
+ 
+  #nav-menu a{
+    padding: 10px 12px;
+    font-size: 20px;
+    margin-left: 5%
+  }
+
+
+
+.img1{
+  background-size: contain;
+  height: 150px;
+}
+.img2{
+  background-size: contain;
+  position: center;
+  background-repeat: no-repeat;
+  height:280px;
+
+}
+.img3{
+  background-size: contain;
+  height: 220px;
+   background-repeat: no-repeat;
+}
+.img4{
+  background-size: contain;
+  height: 280px;
+   background-repeat: no-repeat;
+   position: center;
+}
+.img5{
+  background-size: contain;
+  height: 280px;
+  background-repeat: no-repeat;
+   position: center;
+}
+
+.img6{
+  background-size: contain;
+  height: 190px;
+  background-repeat: no-repeat;
+   position: center;
+}
+
+.img7{
+  background-size: contain;
+  height: 185px;
+  background-repeat: no-repeat;
+   position: center;
+}
+
+.img8{
+  background-size: contain;
+  height: 180px;
+  background-repeat: no-repeat;
+  position: center;
+}
+
+.img9{
+  background-size: contain;
+  height: 220px;
+  background-repeat: no-repeat;
+  position: center;
+}
+
+.img10{
+  background-size: contain;
+  height: 220px;
+  background-repeat: no-repeat;
+   position: center;
+}
+
+
+
+.bg-text{
+  font-size: 30px;
+  width: 150px
+}
+
+
+
+  #ending{
+    Width: auto;
+    height: 200px;
+    background-attachment: scroll
+  }
+
+.call{
+  padding:0%;
+  margin: 0%;
+  font-size: 20px;
+}
+
+a.call{
+  right: 70%;
+ left:30%;
+ top: 50%;
+ bottom:50%;
+
+}
+  }
+}
