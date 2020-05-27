@@ -164,6 +164,17 @@ Background: #0088cc ;
 color: white
 }
 
+
+.logobackground{
+   background-image: url("./index-picture/logo.png");
+   background-attachment: scroll;
+   background-size: contain;
+   height: 560px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+
 @media only screen and (max-width:500px){
 
   h1{
@@ -198,5 +209,13 @@ color: white
   input[type=reset] {
   padding: 18px 26px
   }
+
+.logobackground{
+ background-size: contain;
+ height: 200px;
+ background-repeat:no-repeat;
+ background-position: center;
+}
+
 
 } 

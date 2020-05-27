@@ -177,6 +177,17 @@ a.call{
 }
 
 
+.logobackground{
+   background-image: url("./index-picture/logo.png");
+   background-attachment: scroll;
+   background-size: contain;
+   height: 560px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+
+
 @media only screen and (max-width:500px){
 
   h1{
@@ -232,6 +243,14 @@ a.call{
  left:30%;
  top: 50%;
  bottom:50%;
+
+}
+
+.logobackground{
+ background-size: contain;
+ height: 200px;
+ background-repeat:no-repeat;
+ background-position: center;
 
 }
 

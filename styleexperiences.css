@@ -247,6 +247,14 @@ a.call{
   transition: 2s ease-out;
 }
 
+.logobackground{
+   background-image: url("./index-picture/logo.png");
+   background-attachment: scroll;
+   background-size: contain;
+   height: 560px;
+   background-repeat: no-repeat;
+   background-position: center;
+}
 
 
 
@@ -344,6 +352,13 @@ a.call{
  left:30%;
  top: 50%;
  bottom:50%;
-
 }
+
+.logobackground{
+ background-size: contain;
+ height: 200px;
+ background-repeat:no-repeat;
+ background-position: center;
+}
+
 }
